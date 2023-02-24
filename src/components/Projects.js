@@ -18,7 +18,7 @@ export const Projects = () => {
     },
     {
       title: "My Web Project Details Website",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/myfirstwebsite">Github</a></div><div><a class="hyper" href="https://francissilva.vercel.app/">Website</a></div></>,
+      description: <><div><a class="hyper" href="https://github.com/VathanSilva/Francis-Webproject">Github</a></div><div><a class="hyper" href="https://francis-webproject.vercel.app/">Website</a></div></>,
       imgUrl: projImg8,
     },
     {
