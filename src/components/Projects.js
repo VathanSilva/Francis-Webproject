@@ -4,6 +4,8 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
+import projImg9 from "../assets/img/project-img9.png";
+import projImg10 from "../assets/img/project-img10.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,14 +29,14 @@ export const Projects = () => {
       imgUrl: projImg7,
     },
     {
-      title: "Coming Soon!",
-      description: "",
-      imgUrl: projImg5,
+      title: "My Movie CRUD Admin Website",
+      description: <><div><a class="hyper" href="https://github.com/VathanSilva/movie-crud">Github</a></div><div><a class="hyper" href="https://movie-crud-weld.vercel.app/">Website</a></div></>,
+      imgUrl: projImg9,
     },
     {
-      title: "Coming Soon!",
-      description: "",
-      imgUrl: projImg5,
+      title: "My Movie CRUD API",
+      description: <><div><a class="hyper" href="https://github.com/VathanSilva/movie-crud-api">Github</a></div><div><a class="hyper" href="https://movie-crud-api.vercel.app/">Website</a></div></>,
+      imgUrl: projImg10,
     },
     {
       title: "Coming Soon!",
