@@ -6,6 +6,7 @@ import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
 import projImg10 from "../assets/img/project-img10.png";
+import projImg11 from "../assets/img/project-img11.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -39,9 +40,9 @@ export const Projects = () => {
       imgUrl: projImg10,
     },
     {
-      title: "Coming Soon!",
-      description: "",
-      imgUrl: projImg5,
+      title: "RR Decoration",
+      description: <><div><a class="hyper" href="https://github.com/VathanSilva/RRdecoration">Github</a></div><div><a class="hyper" href="https://rrdecoration.vercel.app/">Website</a></div></>,
+      imgUrl: projImg11,
     },
   ];
 
