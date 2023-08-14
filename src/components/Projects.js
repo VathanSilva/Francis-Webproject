@@ -7,7 +7,7 @@ import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
 import projImg10 from "../assets/img/project-img10.png";
 import projImg11 from "../assets/img/project-img11.png";
-import projImg12 from "../assets/img/project-img12.png";
+import projImg12 from "../assets/img/project-img12.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
