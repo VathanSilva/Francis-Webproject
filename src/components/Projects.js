@@ -49,7 +49,7 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Space Travel App",
+      title: "Space Travel App Figma Design",
       description: <div><a class="hyper" href="https://github.com/VathanSilva/Space-travel-app">Github</a></div>,
       imgUrl: projImg12,
     },
