@@ -8,6 +8,9 @@ import projImg9 from "../assets/img/project-img9.png";
 import projImg10 from "../assets/img/project-img10.png";
 import projImg11 from "../assets/img/project-img11.png";
 import projImg12 from "../assets/img/project-img12.jpg";
+import projImg13 from "../assets/img/project-img13.png";
+import projImg14 from "../assets/img/project-img14.png";
+import projImg15 from "../assets/img/project-img15.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -36,9 +39,9 @@ export const Projects = () => {
       imgUrl: projImg9,
     },
     {
-      title: "My Movie CRUD API",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/movie-crud-api">Github</a></div><div><a class="hyper" href="https://movie-crud-api.vercel.app/">Website</a></div></>,
-      imgUrl: projImg10,
+      title: "HTML Portfolio",
+      description: <><div><a class="hyper" href="https://github.com/VathanSilva/Francis-html-website">Github</a></div><div><a class="hyper" href="https://francis-html-website.vercel.app/">Website</a></div></>,
+      imgUrl: projImg13,
     },
     {
       title: "RR Decoration",
@@ -49,14 +52,14 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Space Travel App Figma Design",
-      description: <div><a class="hyper" href="https://github.com/VathanSilva/Space-travel-app">Github</a></div>,
-      imgUrl: projImg12,
+      title: "Movie CRUD Back-End",
+      description: <><div><a class="hyper" href="https://github.com/VathanSilva/movie-crud-api">Github</a></div><div><a class="hyper" href="https://movie-crud-api.vercel.app/">Website</a></div></>,
+      imgUrl: projImg10,
     },
     {
-      title: "Coming Soon!",
-      description: "",
-      imgUrl: projImg5,
+      title: "Bus Booking System Back-End",
+      description: <><div><a class="hyper" href="https://github.com/VathanSilva/bus-booking">Github</a></div><div><a class="hyper" href="https://bus-booking-rho.vercel.app/">Website</a></div></>,
+      imgUrl: projImg14,
     },
     {
       title: "Coming Soon!",
@@ -82,14 +85,14 @@ export const Projects = () => {
 
   const projects2 = [
     {
-      title: "Coming Soon!",
-      description: "",
-      imgUrl: projImg5,
+      title: "Space Travel App Figma Design For RootCode Company competition",
+      description: <div><a class="hyper" href="https://github.com/VathanSilva/Space-travel-app">Github</a></div>,
+      imgUrl: projImg12,
     },
     {
-      title: "Coming Soon!",
-      description: "",
-      imgUrl: projImg5,
+      title: "Space Travel App - Front-End(Ionic) For RootCode Company competition",
+      description: <><div><a class="hyper" href="https://github.com/rasheeek/baylanka_planetTravel">Github</a></div></>,
+      imgUrl: projImg15,
     },
     {
       title: "Coming Soon!",
@@ -126,13 +129,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Web</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Back-End</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">App</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
