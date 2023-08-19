@@ -14,7 +14,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "UI/UX Designer", "Front-End Developer", "Back-End Developer" ];
+  const toRotate = [ "UI/UX Designer", "FrontEnd Developer", "BackEnd Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -72,7 +72,7 @@ export const Banner = () => {
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to My Project Website</span>
-                  <h1>{`Hi! I'm Francis.`} <div><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></div></h1>
+                  <h1>{`Hi! I'm Francis.`} <div><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "UI/UX Designer", "FrontEnd Developer", "BackEnd Developer" ]'><span className="wrap">{text}</span></span></div></h1>
                     <p>Hi! I am Vathan Silva from Srilanka. I’m an enthusiastic individual presently seeking the role of intern or an associate in the IT and Electronics sector. My primary interest lies in software engineering and graphic design. Being a self-motivated, fast learner, I can multitask and handle responsibilities from different job roles elegantly. I also consider myself a person with strong communication skills both orally and in written forms. Thus, I actively engage in teamwork and am willing to contribute my best in any task. Now I am an Electronic Embedded System student at the University of Sri Jayawardenapura.</p>
                     <Navbar.Brand href="#connect"><button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></Navbar.Brand>
                 </div>}
