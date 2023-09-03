@@ -24,7 +24,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>Submit Me your <br></br>Email id to contact you</h3>
+              <h3>Submit me your <br></br>Email id to contact you</h3>
             </Col>
             <Col md={6} xl={7}>
               <form ref={form} onSubmit={sendEmail}>
