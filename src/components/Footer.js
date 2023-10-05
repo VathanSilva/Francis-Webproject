@@ -22,7 +22,7 @@ export const Footer = () => {
               <a href="https://github.com/VathanSilva"><Github className="github" /></a>
               <a href="https://francissilva.vercel.app/"><img src={dev} alt="" /></a>
             </div>
-            <p>Copyright 2023. Build By Francis Silva</p>
+            <p>Copyright 2023. Built By Francis Silva</p>
           </Col>
         </Row>
       </Container>
