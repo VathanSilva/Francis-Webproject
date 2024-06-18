@@ -11,7 +11,7 @@ import projImg12 from "../assets/img/project-img12.jpg";
 import projImg13 from "../assets/img/project-img13.png";
 import projImg14 from "../assets/img/project-img14.png";
 import projImg15 from "../assets/img/project-img15.png";
-import projImg16 from "../assets/img/project-img16.jpg";
+import projImg16 from "../assets/img/project-img16.png";
 import projImg17 from "../assets/img/project-img17.png";
 import projImg18 from "../assets/img/project-img18.png";
 import projImg19 from "../assets/img/project-img19.png";
