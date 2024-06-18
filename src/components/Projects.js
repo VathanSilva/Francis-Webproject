@@ -11,6 +11,10 @@ import projImg12 from "../assets/img/project-img12.jpg";
 import projImg13 from "../assets/img/project-img13.png";
 import projImg14 from "../assets/img/project-img14.png";
 import projImg15 from "../assets/img/project-img15.png";
+import projImg16 from "../assets/img/project-img16.jpg";
+import projImg17 from "../assets/img/project-img17.jpg";
+import projImg18 from "../assets/img/project-img18.jpg";
+import projImg19 from "../assets/img/project-img19.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,33 +24,162 @@ export const Projects = () => {
   const projects = [
     {
       title: "My First Website",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/myfirstwebsite">Github</a></div><div><a class="hyper" href="https://francissilva.vercel.app/">Website</a></div></>,
+      description: (
+        <>
+          <div>
+            <a
+              class="hyper"
+              href="https://github.com/VathanSilva/myfirstwebsite"
+            >
+              Github
+            </a>
+          </div>
+          <div>
+            <a class="hyper" href="https://francissilva.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
       imgUrl: projImg4,
     },
     {
       title: "My Web Project Details Website",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/Francis-Webproject">Github</a></div><div><a class="hyper" href="https://francis-webproject.vercel.app/">Website</a></div></>,
+      description: (
+        <>
+          <div>
+            <a
+              class="hyper"
+              href="https://github.com/VathanSilva/Francis-Webproject"
+            >
+              Github
+            </a>
+          </div>
+          <div>
+            <a class="hyper" href="https://francis-webproject.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
       imgUrl: projImg8,
     },
     {
       title: "My Weather Forecast Website",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/francis-weather">Github</a></div><div><a class="hyper" href="https://francis-weather.vercel.app/">Website</a></div></>,
+      description: (
+        <>
+          <div>
+            <a
+              class="hyper"
+              href="https://github.com/VathanSilva/francis-weather"
+            >
+              Github
+            </a>
+          </div>
+          <div>
+            <a class="hyper" href="https://francis-weather.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
       imgUrl: projImg7,
     },
     {
       title: "My Movie CRUD Admin Website",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/movie-crud">Github</a></div><div><a class="hyper" href="https://movie-crud-weld.vercel.app/">Website</a></div></>,
+      description: (
+        <>
+          <div>
+            <a class="hyper" href="https://github.com/VathanSilva/movie-crud">
+              Github
+            </a>
+          </div>
+          <div>
+            <a class="hyper" href="https://movie-crud-weld.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
       imgUrl: projImg9,
     },
     {
       title: "HTML Portfolio",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/Francis-html-website">Github</a></div><div><a class="hyper" href="https://francis-html-website.vercel.app/">Website</a></div></>,
+      description: (
+        <>
+          <div>
+            <a
+              class="hyper"
+              href="https://github.com/VathanSilva/Francis-html-website"
+            >
+              Github
+            </a>
+          </div>
+          <div>
+            <a class="hyper" href="https://francis-html-website.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
       imgUrl: projImg13,
     },
     {
       title: "RR Decoration",
-      description: <><div><a class="hyper" href="https://github.com/VathanSilva/RRdecoration">Github</a></div><div><a class="hyper" href="https://rrdecoration.vercel.app/">Website</a></div></>,
+      description: (
+        <>
+          <div>
+            <a class="hyper" href="https://github.com/VathanSilva/RRdecoration">
+              Github
+            </a>
+          </div>
+          <div>
+            <a class="hyper" href="https://rrdecoration.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
       imgUrl: projImg11,
+    },
+    {
+      title: "Is Abled Recruit",
+      description: (
+        <>
+          <div>
+            <a class="hyper" href="https://is-abled-recruit.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
+      imgUrl: projImg17,
+    },
+    {
+      title: "RayTech",
+      description: (
+        <>
+          <div>
+            <a class="hyper" href="https://ray-tech.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
+      imgUrl: projImg18,
+    },
+    {
+      title: "IFix Green Solutions (Pvt) Ltd",
+      description: (
+        <>
+          <div>
+            <a class="hyper" href="https://ifixgreen.vercel.app/">
+              Website
+            </a>
+          </div>
+        </>
+      ),
+      imgUrl: projImg19,
     },
   ];
 
@@ -86,18 +219,50 @@ export const Projects = () => {
   const projects2 = [
     {
       title: "Space Travel App Figma Design For RootCode Company competition",
-      description: <div><a class="hyper" href="https://github.com/VathanSilva/Space-travel-app">Github</a></div>,
+      description: (
+        <div>
+          <a
+            class="hyper"
+            href="https://github.com/VathanSilva/Space-travel-app"
+          >
+            Github
+          </a>
+        </div>
+      ),
       imgUrl: projImg12,
     },
     {
-      title: "Space Travel App - Front-End(Ionic) For RootCode Company competition",
-      description: <><div><a class="hyper" href="https://github.com/rasheeek/baylanka_planetTravel">Github</a></div></>,
+      title:
+        "Space Travel App - Front-End(Ionic) For RootCode Company competition",
+      description: (
+        <>
+          <div>
+            <a
+              class="hyper"
+              href="https://github.com/rasheeek/baylanka_planetTravel"
+            >
+              Github
+            </a>
+          </div>
+        </>
+      ),
       imgUrl: projImg15,
     },
     {
-      title: "Coming Soon!",
-      description: "",
-      imgUrl: projImg5,
+      title: "Smart Home App",
+      description: (
+        <>
+          <div>
+            <a
+              class="hyper"
+              href="https://github.com/VathanSilva/smart-home-apk"
+            >
+              Github
+            </a>
+          </div>
+        </>
+      ),
+      imgUrl: projImg16,
     },
     {
       title: "Coming Soon!",
